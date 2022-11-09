@@ -40,3 +40,15 @@ Seguirà un videotutorial che lo studente dovrà consegnare che presenta il prog
 Nel videotutorial sarebbe opportuno inserire il video della dimostrazione del risultato ottenuto, il funzionamento della connessione tramite WIFI mettendo in evidenza i 2 livelli aggiuntivi introdotti, in particolare il livello di rete (IP) e di trasporto (UDP)
 
 Il videotutorial dovrebbe essere consegnato su Classroom.
+
+DIARIO DI BORDO
+
+Per mandare i dati dal telefono al pc, abbiamo collegato arduino al pc con la scheda Wi-Fi ESP-01.
+In seguito abbiamo selezionato il collegamento con COM3 dal pc nel software Arduino.
+Abbiamo scaricato "UDP Monitor" sul telefono e configurato nel seguento modo:
+
+IP:192.168.4.1
+PORTA: 4567
+
+Ci siamo in seguito collegati dal telefono al Wi-Fi del robottino.
+Abbiamo inviato una stringa (come ad esempio "ciao") e la stessa è arrivata al monitor seriale del pc.
