@@ -43,6 +43,9 @@ Il videotutorial dovrebbe essere consegnato su Classroom.
 
 DIARIO DI BORDO
 
+09/11/2022 - Prima giornata
+Nella prima giornata abbiamo verificato la connessione tra telefono e pc tramite Arduino e scheda Wi-Fi.
+
 Per mandare i dati dal telefono al pc, abbiamo collegato arduino al pc con la scheda Wi-Fi ESP-01.
 In seguito abbiamo selezionato il collegamento con COM3 dal pc nel software Arduino.
 Abbiamo scaricato "UDP Monitor" sul telefono e configurato nel seguento modo:
