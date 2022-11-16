@@ -43,7 +43,7 @@ Il videotutorial dovrebbe essere consegnato su Classroom.
 
 DIARIO DI BORDO
 
-09/11/2022 - Prima giornata
+09/11/2022 - Prima giornata |
 Nella prima giornata abbiamo verificato la connessione tra telefono e pc tramite Arduino e scheda Wi-Fi.
 
 Per mandare i dati dal telefono al pc, abbiamo collegato arduino al pc con la scheda Wi-Fi ESP-01.
@@ -55,3 +55,7 @@ PORTA: 4567
 
 Ci siamo in seguito collegati dal telefono al Wi-Fi del robottino.
 Abbiamo inviato una stringa (come ad esempio "ciao") e la stessa è arrivata al monitor seriale del pc.
+
+16/11/2022 - Seconda giornata |
+
+
