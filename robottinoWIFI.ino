@@ -18,7 +18,7 @@ String check4answer(){
     while (serialModuloWIFI.available() > 0) { // 
         char c = serialModuloWIFI.read();
         Serial.print(c);
-        str += String(c);
+        str += String(c);  
     }
     return str;
 }
@@ -90,5 +90,16 @@ void loop() {
         //Serial.println(startOfSTR);
       }
     }
+    
+    AT+CIPSEND=[<id>,]<length>[,<ip>,<port>]
+id: identifica il programma resposabile per la trasmissione nel modulor WIFI (per voi il valore 3)
+length: la lunghezza della stringa da inviare
+ip: indirizzo IP del cellulare (che potete ricavare da dalla lista dei dispositivi connessi)(vedi codice suggerito qui sotto)
+port: la porta di ricezione del cellulare (quella che scegliete voi e impostate nel Monitor UDP)
+
+codice per ricavare l'indirizzo IP e memorizzarlo nella variabile "cellphoneIP"
+String str = esp01cmd("AT+CWLIF");
+int startOfSTR = str.indexOf(',',18); //IP finsce prima della virgola
+String cellphoneIP = str.substring(11,startOfSTR);
 
 }
