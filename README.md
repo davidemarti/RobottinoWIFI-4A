@@ -57,5 +57,9 @@ Ci siamo in seguito collegati dal telefono al Wi-Fi del robottino.
 Abbiamo inviato una stringa (come ad esempio "ciao") e la stessa è arrivata al monitor seriale del pc.
 
 16/11/2022 - Seconda giornata |
+Nella seconda giornata, abbiamo continuato il brain-storming per creare un codice funzionante, ma non siamo giunti alla nostra conclusione
+
+23/11/2022 - Terza giornata  |
+Nella seconda giornata, abbiamo ricevuto il codice funzionante direttamente dal professor Palitto.
 
 
