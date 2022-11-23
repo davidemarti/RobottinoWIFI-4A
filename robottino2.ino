@@ -52,7 +52,7 @@ void setup()  {
     esp01cmd("AT+CWSAP=\"robottino\",\"robottino\",1,4");
     delay(1000);
     esp01cmd("AT+CIFSR"); //show AP IP address
-    esp01cmd("AT+CIPMUX=0"); //allow up to 1 connections at the time
+    esp01cmd("AT+CIPMUX=1"); //allow up to 1 connections at the time
     
     
     Serial.println("ESP-01 Configuration Completed");
