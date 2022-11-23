@@ -61,5 +61,6 @@ Nella seconda giornata, abbiamo continuato il brain-storming per creare un codic
 
 23/11/2022 - Terza giornata  |
 Nella seconda giornata, abbiamo ricevuto il codice funzionante direttamente dal professor Palitto.
+Abbiamo modificato il codice in modo tale che il messaggio inviato dal telefono deve avere come prima lettera la direzione che dovrà seguire il robottino e di seguito il tempo per cui il robottino dovrà andare nella direzione. Ora il monitor restituisce solamente per quale direzione è indirizzato il robottino e per quanti secondi (restituisce solo una stringa)
 
 
